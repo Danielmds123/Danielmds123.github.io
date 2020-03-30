@@ -31,6 +31,8 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon.png">
 
+
+
   <!-- =======================================================
     Theme Name: Folio
     Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
@@ -57,7 +59,9 @@
           <li><a href="#about" class="smoothScroll">About</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
           <li><a href="#journal" class="smoothScroll">Blog</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="#contact" class="smoothScroll" >Contact</a></li>
+          <li><a type="button" class="smoothScroll" data-toggle="modal" data-target="#Login">Login</a></li>
+
         </ul>
 
       </div>
@@ -65,15 +69,16 @@
   </nav>
   <!-- End section navbar -->
 
-
+  
+  
   <!-- start section header -->
   <div id="header" class="home">
-
+    
     <div class="container">
       <div class="header-content">
         <h1>I'm <span class="typed"></span></h1>
         <p>designer, developeur, photographer</p>
-
+        
         <ul class="list-unstyled list-social">
           <li><a href="#"><i class="ion-social-facebook"></i></a></li>
           <li><a href="#"><i class="ion-social-twitter"></i></a></li>
@@ -86,6 +91,7 @@
     </div>
   </div>
   <!-- End section header -->
+  
 
 
   <!-- start section about us -->
@@ -436,6 +442,66 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <!-- Modal LOGIN-->
+
+  <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">LOGIN</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal LOGIN-->
+<div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">LOGIN</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Insira um e-mail valido</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Da pra escreve aqui - Use um e-mail ativo</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Mantenha conectado</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        cadastrar-se
+      </div>
+      <div class="modal-footer">
+        ...
+       </div>
+    </div>
+  </div>
+</div>
+
 
 </body>
 
