@@ -7,6 +7,7 @@ $(document).ready(function() {
   //  //SMOOTH SCROLL
   // ========================================================================= //
 
+  
 
   $(document).on("scroll", onScroll);
 
@@ -34,6 +35,7 @@ $(document).ready(function() {
       $(document).on("scroll", onScroll);
     });
   });
+
 
 
   function onScroll(event) {
